@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ee702b9b0ef023865bf4988304bcf2e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ee702b9b0ef023865bf4988304bcf2e6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ee702b9b0ef023865bf4988304bcf2e6 = L.map(
+                "map_ee702b9b0ef023865bf4988304bcf2e6",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14cbede29d65200198ec62fa4fea0914 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_14cbede29d65200198ec62fa4fea0914.addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+            var marker_f00bc429deeb94c0ff80a594f586fccc = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+        var popup_8110ab737f815cfa084fb7f2cdf16fa4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a614364011abcfbb916a023408b55187 = $(`<div id="html_a614364011abcfbb916a023408b55187" style="width: 100.0%; height: 100.0%;">Title: Inception Director: Christopher Nolan Year: 2010 Genre: Ciencia ficción / Thriller</div>`)[0];
+                popup_8110ab737f815cfa084fb7f2cdf16fa4.setContent(html_a614364011abcfbb916a023408b55187);
+            
+        
+
+        marker_f00bc429deeb94c0ff80a594f586fccc.bindPopup(popup_8110ab737f815cfa084fb7f2cdf16fa4)
+        ;
+
+        
+    
+    
+            var marker_616884e92b16eff23b3c5a9d3147b5b3 = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+        var popup_d2a5f9d0214ab8b48c3e392471aa288d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59d76d04d5fd54b962bca6c9aee683c9 = $(`<div id="html_59d76d04d5fd54b962bca6c9aee683c9" style="width: 100.0%; height: 100.0%;">Title: Parasite Director: Bong Joon-ho Year: 2019 Genre: Drama / Suspenso</div>`)[0];
+                popup_d2a5f9d0214ab8b48c3e392471aa288d.setContent(html_59d76d04d5fd54b962bca6c9aee683c9);
+            
+        
+
+        marker_616884e92b16eff23b3c5a9d3147b5b3.bindPopup(popup_d2a5f9d0214ab8b48c3e392471aa288d)
+        ;
+
+        
+    
+    
+            var marker_baf599867b56a207caf53569d9b588a8 = L.marker(
+                [-41.2865, 174.7762],
+                {
+}
+            ).addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+        var popup_4d7a468d8b546c4bf887714db5a62f9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b8233d7197615c8fe5f623c592949e2 = $(`<div id="html_5b8233d7197615c8fe5f623c592949e2" style="width: 100.0%; height: 100.0%;">Title: The Lord of the Rings: The Fellowship of the Ring Director: Peter Jackson Year: 2001 Genre: Fantasía / Aventura</div>`)[0];
+                popup_4d7a468d8b546c4bf887714db5a62f9c.setContent(html_5b8233d7197615c8fe5f623c592949e2);
+            
+        
+
+        marker_baf599867b56a207caf53569d9b588a8.bindPopup(popup_4d7a468d8b546c4bf887714db5a62f9c)
+        ;
+
+        
+    
+    
+            var marker_d164231d3cf4d772744865e2051a9ec9 = L.marker(
+                [34.0522, -118.2437],
+                {
+}
+            ).addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+        var popup_c299d64dd7ca4ecbb7736cbe4bdfa9ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acc4ade49efbc633f94ce6aa4133c48a = $(`<div id="html_acc4ade49efbc633f94ce6aa4133c48a" style="width: 100.0%; height: 100.0%;">Title: La La Land Director: Damien Chazelle Year: 2016 Genre: Musical / Romance</div>`)[0];
+                popup_c299d64dd7ca4ecbb7736cbe4bdfa9ac.setContent(html_acc4ade49efbc633f94ce6aa4133c48a);
+            
+        
+
+        marker_d164231d3cf4d772744865e2051a9ec9.bindPopup(popup_c299d64dd7ca4ecbb7736cbe4bdfa9ac)
+        ;
+
+        
+    
+    
+            var marker_286fbeb083f5aa9ed7011391fed017af = L.marker(
+                [19.4326, -99.1332],
+                {
+}
+            ).addTo(map_ee702b9b0ef023865bf4988304bcf2e6);
+        
+    
+        var popup_f00cbab472c182bf1a062f7052cb17b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_729210211c4048f83bd64149b18a132e = $(`<div id="html_729210211c4048f83bd64149b18a132e" style="width: 100.0%; height: 100.0%;">Title: Coco Director: Lee Unkrich Year: 2017 Genre: Animación / Fantasía</div>`)[0];
+                popup_f00cbab472c182bf1a062f7052cb17b1.setContent(html_729210211c4048f83bd64149b18a132e);
+            
+        
+
+        marker_286fbeb083f5aa9ed7011391fed017af.bindPopup(popup_f00cbab472c182bf1a062f7052cb17b1)
+        ;
+
+        
+    
+</script>
+</html>
