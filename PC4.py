@@ -192,11 +192,11 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'grafico histograma Real Madrid':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpret</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Real Madrid marcó mas goles como local que como visitante. De igual manera, recibio menos goles como local que como vistante</div>", unsafe_allow_html=True)
         st.image("garfico_3.png", caption='grafico histograma Real Madrid', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de pastel partidos barcelona':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>En la temporada 2024 - 2025, el barcelona ganó el 75 por ciento de sus partidos, perdió el 20, y empató el 5</div>", unsafe_allow_html=True)
         st.image("grafic0-1.png", caption='Gráfico de pastel partidos barcelona', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras promedio de tarjetas rojas':
