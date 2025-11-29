@@ -192,7 +192,7 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'grafico histograma Real Madrid':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Real Madrid marcó mas goles como local que como visitante. De igual manera, recibio menos goles como local que como vistante</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Real Madrid marcó mas goles como local que como visitante. De igual manera, recibio menos goles como local que como vistante. Esta estadistica es reiterativa y común en el real madrid</div>", unsafe_allow_html=True)
         st.image("garfico_3.png", caption='grafico histograma Real Madrid', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de pastel partidos barcelona':
@@ -240,4 +240,5 @@ else:
 
         # Mostrar el mapa en Streamlit
         #st_folium(mapa_cusco, width=700, height=500)
+
     
